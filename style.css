@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: darkblue;
+}
+.container{
+    height: 100vh;
+    width: 70vw;
+    background-color: red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.image{
+    width: 50%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.003) ;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+ 
+}
+.text{
+    margin-bottom: 50px;
+}
